@@ -1,0 +1,118 @@
+@font-face { font-family: 'HelveticaNeueCyr-Thin';  src: local('HelveticaNeueCyr-Thin'), url('https://nomail.com.ua/files/woff/3036ae86f3e196e33d3be155da20f495.woff') format('woff'); }
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body {
+    background-image: url(../img/spiration_dark.png);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: aliceblue;
+        
+        -webkit-font-smoothing: antialiased;
+    
+   
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'HelveticaNeueCyr-Thin', cursive;
+    font-weight: 300px;
+    color: aliceblue;
+}
+
+p {
+    text-align: justify;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-family: 'HelveticaNeueCyr-Thin', cursive;
+}
+
+* {box-sizing: border-box}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: darkslateblue;
+    font-family: 'HelveticaNeueCyr-Thin', cursive;
+}
+
+a:hover, a:focus {
+    color: blueviolet;
+    text-decoration: none;
+    outline: 0;
+    font-family: 'HelveticaNeueCyr-Thin', cursive;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.navbar {
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.media-body {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.quote p {
+    background-color: rgba(250, 250, 250, 0.4);
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}
+.card-body h5 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    
+}
+.card-body p {
+    font-size: 18px;
+    color: black;
+    
+}
+#headerwrap {
+    background: url(/img/c.jpg) no-repeat center top;
+    margin-top: 90px;
+    padding-top: 20px;
+    text-align: left;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    margin-top: 150px;
+    color: palevioletred;
+    font-size: 32px;
+    font-weight: 300px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+#headerwrap h3 {
+    color: black;
+    font-size: 26px;
+    font-weight: 300px;
+    letter-spacing: 3px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+}
